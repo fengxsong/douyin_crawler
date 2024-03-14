@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "douyin"
+version = "0.1.0"
+description = ""
+authors = ["fengxsong <fengxsong@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "0.24.0"
+playwright = "1.33.0"
+PyExecJS = "1.5.1"
+tenacity = "8.2.2"
+Pillow = "9.5.0"
+opencv-python = "4.7.0.72"
+numpy = "^1.26.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
